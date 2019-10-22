@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/course/course",
+    "pages/store/store",
+    "pages/appointment/appointment",
+    "pages/personal/personal"
+  ],
+  "window": {
+    "navigationBarTitleText": "SUPERMONKEY",
+    "navigationBarBackgroundColor": "#020202",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#555",
+    "selectedColor": "#efd26a",
+    "backgroundColor": "#161616",
+    "list": [
+      {
+        "pagePath": "pages/store/store",
+        "iconPath": "images/tabbar/icon_store.png",
+        "selectedIconPath": "images/tabbar/icon_store_HL.png",
+        "text": "门店"
+      },
+      {
+        "pagePath": "pages/course/course",
+        "iconPath": "images/tabbar/icon_course.png",
+        "selectedIconPath": "images/tabbar/icon_course_HL.png",
+        "text": "课程"
+      },
+      {
+        "pagePath": "pages/appointment/appointment",
+        "iconPath": "images/tabbar/icon_appointment.png",
+        "selectedIconPath": "images/tabbar/icon_appointment_HL.png",
+        "text": "预约"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "iconPath": "images/tabbar/icon_personal.png",
+        "selectedIconPath": "images/tabbar/icon_personal_HL.png",
+        "text": "猩卡"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "将为你展示最近的猩店和课程"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}
